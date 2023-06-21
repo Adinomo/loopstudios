@@ -1,0 +1,11 @@
+@layer components {
+	.navbar {
+		@apply flex flex-col md:flex-row text-white container md:w-[80%] mx-auto absolute md:top-6 md:left-0 
+		md:right-0 md:justify-between md:items-center w-[100%] md:bg-transparent h-screen md:h-auto 
+		z-10 ps-5 pt-4 md:pt-0 md:ps-0 transition-all duration-500 ease-in-out
+	}
+	.nav-items {
+		@apply list-none flex flex-col md:flex-row mt-[25%] md:mt-0 md:justify-center transition-all
+		duration-500 ease-in-out absolute md:static
+	}
+}

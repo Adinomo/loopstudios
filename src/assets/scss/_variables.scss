@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Alata;
+	src: url("../fonts/Alata/Alata-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Josefin_sans";
+	src: url("../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+
+$dark-gray: hsl(0, 0%, 55%);
